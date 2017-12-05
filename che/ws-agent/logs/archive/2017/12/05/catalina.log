@@ -1,0 +1,21 @@
+2017-12-05 09:37:53,792[ost-startStop-1]  [INFO ] [o.e.c.a.p.s.WorkspaceHolder 59]      - Workspace ID: workspacex4v0ziqpwz4w0p6r
+2017-12-05 09:37:53,797[ost-startStop-1]  [INFO ] [o.e.c.a.p.s.WorkspaceHolder 60]      - API Endpoint: https://codenvy.io/api
+2017-12-05 09:37:53,798[ost-startStop-1]  [INFO ] [o.e.c.a.p.s.WorkspaceHolder 61]      - User Token  : true
+2017-12-05 09:37:54,633[ost-startStop-1]  [WARN ] [org.reflections.Reflections 180]     - given scan urls are empty. set urls in the configuration
+2017-12-05 09:37:58,463[nio-4401-exec-3]  [WARN ] [c.s.o.RemoteOAuthTokenProvider 66]   - Token not found for user useriv2u88t136frnn1p
+2017-12-05 09:47:38,881[equestProcessor]  [ERROR] [a.p.s.EditorWorkingCopyManager 321]  - Project '/console-python3-simple' doesn't exist.
+2017-12-05 09:47:39,148[equestProcessor]  [ERROR] [.e.c.a.l.s.TextDocumentService 705]  - Error trying to process textDocument/didOpen
+org.eclipse.che.api.languageserver.exception.LanguageServerException: Project not found for file:///projects/console-python3-simple/main.py
+	at org.eclipse.che.api.languageserver.registry.LanguageServerRegistryImpl.extractProjectPath(LanguageServerRegistryImpl.java:228)
+	at org.eclipse.che.api.languageserver.registry.LanguageServerRegistryImpl.getApplicableLanguageServers(LanguageServerRegistryImpl.java:236)
+	at org.eclipse.che.api.languageserver.service.TextDocumentService.didClose(TextDocumentService.java:696)
+	at org.eclipse.che.api.core.jsonrpc.commons.reception.ConsumerConfiguratorOneToNone.lambda$withConsumer$0(ConsumerConfiguratorOneToNone.java:59)
+	at org.eclipse.che.api.core.jsonrpc.commons.RequestHandlerManager$OneToNoneHandler.handle(RequestHandlerManager.java:379)
+	at org.eclipse.che.api.core.jsonrpc.commons.RequestHandlerManager$OneToNoneHandler.access$1700(RequestHandlerManager.java:368)
+	at org.eclipse.che.api.core.jsonrpc.commons.RequestHandlerManager.handle(RequestHandlerManager.java:248)
+	at org.eclipse.che.api.core.jsonrpc.commons.RequestDispatcher.dispatch(RequestDispatcher.java:55)
+	at org.eclipse.che.api.core.jsonrpc.commons.JsonRpcMessageReceiver.processRequest(JsonRpcMessageReceiver.java:97)
+	at org.eclipse.che.api.core.jsonrpc.commons.JsonRpcMessageReceiver.lambda$receive$0(JsonRpcMessageReceiver.java:72)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

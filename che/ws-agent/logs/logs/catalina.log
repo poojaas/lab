@@ -1,0 +1,40 @@
+2017-12-05 09:37:48,202[main]             [INFO ] [o.a.c.s.VersionLoggerListener 89]    - Server version:        Apache Tomcat/8.5.11
+2017-12-05 09:37:48,207[main]             [INFO ] [o.a.c.s.VersionLoggerListener 91]    - Server built:          Jan 10 2017 21:02:52 UTC
+2017-12-05 09:37:48,208[main]             [INFO ] [o.a.c.s.VersionLoggerListener 93]    - Server number:         8.5.11.0
+2017-12-05 09:37:48,209[main]             [INFO ] [o.a.c.s.VersionLoggerListener 95]    - OS Name:               Linux
+2017-12-05 09:37:48,209[main]             [INFO ] [o.a.c.s.VersionLoggerListener 97]    - OS Version:            3.10.0-514.26.2.el7.x86_64
+2017-12-05 09:37:48,209[main]             [INFO ] [o.a.c.s.VersionLoggerListener 99]    - Architecture:          amd64
+2017-12-05 09:37:48,210[main]             [INFO ] [o.a.c.s.VersionLoggerListener 101]   - Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+2017-12-05 09:37:48,210[main]             [INFO ] [o.a.c.s.VersionLoggerListener 103]   - JVM Version:           1.8.0_131-8u131-b11-2ubuntu1.16.04.3-b11
+2017-12-05 09:37:48,211[main]             [INFO ] [o.a.c.s.VersionLoggerListener 105]   - JVM Vendor:            Oracle Corporation
+2017-12-05 09:37:48,211[main]             [INFO ] [o.a.c.s.VersionLoggerListener 107]   - CATALINA_BASE:         /home/user/che/ws-agent
+2017-12-05 09:37:48,211[main]             [INFO ] [o.a.c.s.VersionLoggerListener 109]   - CATALINA_HOME:         /home/user/che/ws-agent
+2017-12-05 09:37:48,212[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dnop
+2017-12-05 09:37:48,212[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2017-12-05 09:37:48,213[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Xms256m
+2017-12-05 09:37:48,213[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Xmx2048m
+2017-12-05 09:37:48,214[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -XX:+UseG1GC
+2017-12-05 09:37:48,214[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -XX:+UseStringDeduplication
+2017-12-05 09:37:48,214[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.security.egd=file:/dev/./urandom
+2017-12-05 09:37:48,215[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dche.logs.dir=/home/user/che/ws-agent/logs
+2017-12-05 09:37:48,215[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dche.logs.level=INFO
+2017-12-05 09:37:48,215[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djuli-logback.configurationFile=file:/home/user/che/ws-agent/conf/tomcat-logger.xml
+2017-12-05 09:37:48,216[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2017-12-05 09:37:48,216[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+2017-12-05 09:37:48,216[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcom.sun.management.jmxremote
+2017-12-05 09:37:48,217[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+2017-12-05 09:37:48,217[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+2017-12-05 09:37:48,217[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dche.local.conf.dir=/mnt/che/conf
+2017-12-05 09:37:48,218[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcatalina.base=/home/user/che/ws-agent
+2017-12-05 09:37:48,218[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Dcatalina.home=/home/user/che/ws-agent
+2017-12-05 09:37:48,219[main]             [INFO ] [o.a.c.s.VersionLoggerListener 115]   - Command line argument: -Djava.io.tmpdir=/home/user/che/ws-agent/temp
+2017-12-05 09:37:48,352[main]             [INFO ] [o.a.c.http11.Http11NioProtocol 525]  - Initializing ProtocolHandler ["http-nio-4401"]
+2017-12-05 09:37:48,378[main]             [INFO ] [o.a.t.util.net.NioSelectorPool 67]   - Using a shared selector for servlet write/read
+2017-12-05 09:37:48,381[main]             [INFO ] [o.a.catalina.startup.Catalina 617]   - Initialization processed in 514 ms
+2017-12-05 09:37:48,401[main]             [INFO ] [c.m.JmxRemoteLifecycleListener 336]  - The JMX Remote Listener has configured the registry on port 32002 and the server on port 32102 for the Platform server
+2017-12-05 09:37:48,401[main]             [INFO ] [o.a.c.core.StandardService 416]      - Starting service Catalina
+2017-12-05 09:37:48,402[main]             [INFO ] [o.a.c.core.StandardEngine 259]       - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-12-05 09:37:48,542[ost-startStop-1]  [INFO ] [o.a.c.startup.HostConfig 923]        - Deploying web application archive /home/user/che/ws-agent/webapps/ROOT.war
+2017-12-05 09:37:54,673[ost-startStop-1]  [INFO ] [o.a.c.startup.HostConfig 987]        - Deployment of web application archive /home/user/che/ws-agent/webapps/ROOT.war has finished in 6,130 ms
+2017-12-05 09:37:54,677[main]             [INFO ] [o.a.c.http11.Http11NioProtocol 570]  - Starting ProtocolHandler [http-nio-4401]
+2017-12-05 09:37:54,685[main]             [INFO ] [o.a.catalina.startup.Catalina 668]   - Server startup in 6303 ms
